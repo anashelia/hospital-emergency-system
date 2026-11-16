@@ -1,0 +1,7 @@
+John 7
+Alice 4
+Bob 9
+Eve 6
+Charlie 3
+Daniel 8
+Sophia 5

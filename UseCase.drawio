@@ -1,0 +1,139 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="vchKYqm3ICGFAGI-V2Ja">
+    <mxGraphModel dx="1042" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KPAF4geLviIwPgIhctRR-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Patient&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;div&gt;Ambulance&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;div&gt;Doctor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="770" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;div&gt;Hospital&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Call Ambulance" vertex="1">
+          <mxGeometry height="70" width="140" x="285" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Transport Patient to Hospital" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Give &quot;Treat Patients&quot; Oredr" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Register Patient" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Choose Treatment Strategy" vertex="1">
+          <mxGeometry height="70" width="140" x="540" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start the Treatment" vertex="1">
+          <mxGeometry height="70" width="140" x="540" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-20" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KPAF4geLviIwPgIhctRR-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="145" as="sourcePoint" />
+            <mxPoint x="270" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-21" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-4" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KPAF4geLviIwPgIhctRR-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="348" as="sourcePoint" />
+            <mxPoint x="300" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-22" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-8" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KPAF4geLviIwPgIhctRR-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="519.5" as="sourcePoint" />
+            <mxPoint x="260" y="519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Register Doctor" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-25" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-8" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KPAF4geLviIwPgIhctRR-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="626" as="sourcePoint" />
+            <mxPoint x="320" y="588" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-26" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-8" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KPAF4geLviIwPgIhctRR-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="588" as="sourcePoint" />
+            <mxPoint x="330" y="588" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-38" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-12" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="KPAF4geLviIwPgIhctRR-14" value="&amp;lt;&amp;lt;precede&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.5" y="390" as="sourcePoint" />
+            <mxPoint x="369.5" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-40" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-13" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="KPAF4geLviIwPgIhctRR-15" value="&amp;lt;&amp;lt;precede&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="490" as="sourcePoint" />
+            <mxPoint x="470" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-41" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="KPAF4geLviIwPgIhctRR-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="484.5" as="sourcePoint" />
+            <mxPoint x="770" y="484.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KPAF4geLviIwPgIhctRR-16" value="&amp;lt;&amp;lt;precede&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="560" as="sourcePoint" />
+            <mxPoint x="610" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-43" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-11" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KPAF4geLviIwPgIhctRR-44" value="&amp;lt;&amp;lt;Invoke&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint" />
+            <mxPoint x="550" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Alert System Activates" vertex="1">
+          <mxGeometry height="70" width="140" x="530" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Get Initial Assessment" vertex="1">
+          <mxGeometry height="70" width="140" x="715" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-46" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-44" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="KPAF4geLviIwPgIhctRR-45" value="&amp;lt;&amp;lt;Invoke&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="90" as="sourcePoint" />
+            <mxPoint x="640" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Assign Free Ambulance" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-49" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-44" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="KPAF4geLviIwPgIhctRR-47" value="&amp;lt;&amp;lt;Invoke&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="150" as="sourcePoint" />
+            <mxPoint x="650" y="257.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPAF4geLviIwPgIhctRR-50" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-47" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="KPAF4geLviIwPgIhctRR-12" value="&amp;lt;&amp;lt;precede&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="430" as="sourcePoint" />
+            <mxPoint x="420" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ct17N5j1ycB4CdvFOdIF-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Assign Free Hospital" vertex="1">
+          <mxGeometry height="70" width="140" x="500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ct17N5j1ycB4CdvFOdIF-2" edge="1" parent="1" source="KPAF4geLviIwPgIhctRR-44" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ct17N5j1ycB4CdvFOdIF-1" value="&amp;lt;&amp;lt;Invoke&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="190" as="sourcePoint" />
+            <mxPoint x="570" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

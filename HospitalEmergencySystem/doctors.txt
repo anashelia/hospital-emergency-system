@@ -1,0 +1,5 @@
+
+Dr_Smith 5 General_Hospital
+Dr_Adam 3 City_Medical_Center
+Dr_Farizi 8 General_Hospital
+Dr_Kovacs 4 Regional_Clinic
